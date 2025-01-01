@@ -1,0 +1,15 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "example-codemod",
+  "version": "1.0.0",
+  "engine": "jscodeshift",
+  "private": false,
+  "arguments": [],
+  "meta": {
+    "git": "https://codemod.com/registry/codemod-name",
+    "tags": ["framework", "version", "example-tag"]
+  },
+  "applicability": {
+    "from": [["framework", "<=", "2"]]
+  }
+}

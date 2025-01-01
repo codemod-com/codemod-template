@@ -10,9 +10,9 @@ This template repository comes pre-configured with a GitHub workflow that automa
 
 1. Click **Use this template**.
 
-   ![alt text](image.png)
+   ![alt text](assets/image.png)
 2. Select **Create a new repository** and enter your new repository details.
-3. Add your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure).
+3. [Create](https://go.codemod.com/build-codemod-docs) or move your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure). Additionally, make sure that your `LICENSE` and `codemodrc.json` files are accurate.
 
 By doing so, any change made to the `main` branch of your repository will automatically be published to [Codemod Registry](https://codemod.com/registry).
 
