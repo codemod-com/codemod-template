@@ -10,9 +10,14 @@ This template repository comes pre-configured with a GitHub workflow that automa
 
 1. Click **Use this template**.
 
-   ![alt text](assets/image.png)
+   ![alt text](assets/use-template.png)
 2. Select **Create a new repository** and enter your new repository details.
-3. [Create](https://go.codemod.com/build-codemod-docs) or move your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure). Additionally, make sure that your `LICENSE` and `codemodrc.json` files are accurate.
+3. **Login** with [Codemod CLI](https://go.codemod.com/cli-docs): `codemod login`.
+4. Generate a **Codemod API key**: `codemod api-keys:create`.
+5. Place your API key in a **new repository secret** under `Settings > Secrets and Variables > Actions`.
+
+   ![alt text](assets/codemod-api-secret.png)
+6. [Create](https://go.codemod.com/build-codemod-docs) or move your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure). Additionally, make sure that your `LICENSE` and `codemodrc.json` files are accurate.
 
 By doing so, any change made to the `main` branch of your repository will automatically be published to [Codemod Registry](https://codemod.com/registry).
 
