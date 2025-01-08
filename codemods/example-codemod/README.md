@@ -1,5 +1,6 @@
 This codemod turns X into Y. It also does Z.
-Note: this is a contrived example. Please modify it.
+
+Note: this is a simplified example provided for illustration purposes. Please modify it before publishing your codemod to the registry.
 
 ### Before
 
