@@ -17,7 +17,7 @@ This template repository comes pre-configured with a GitHub workflow that automa
 5. Place your API key in a **new repository secret** under `Settings > Secrets and Variables > Actions`.
 
    ![alt text](assets/codemod-api-secret.png)
-6. [Create](https://go.codemod.com/build-codemod-docs) or move your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure). Additionally, make sure that your `LICENSE` and `codemodrc.json` files are accurate.
+6. [Create](https://go.codemod.com/build-codemod-docs) or move your codemod package(s) under the `codemods` directory. Note that your codemods should conform to the [required package structure](https://go.codemod.com/codemod-package-structure). Additionally, make sure that your `codemodrc.json` files are accurate.
 
 By doing so, any change made to the `main` branch of your repository will automatically be published to [Codemod Registry](https://codemod.com/registry).
 
